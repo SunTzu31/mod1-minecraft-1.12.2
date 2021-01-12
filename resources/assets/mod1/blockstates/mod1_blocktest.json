@@ -1,0 +1,10 @@
+{
+    "variants":
+    {
+        "normal":
+        {
+            "model": "mod1:mod1_blocktest"
+        }
+        
+    }
+}

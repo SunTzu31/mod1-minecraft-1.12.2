@@ -1,0 +1,16 @@
+{
+    "mod1_splash":
+    {
+    
+        "category": "player",
+        
+        "sounds": [{ "name": "mod1:mod1_splash", "stream": false}]
+    
+    },
+    
+    "mod1_bruh"   :
+    {
+        "category" : "player",
+        "sounds": [{"name": "mod1:mod1_bruh", "stream": false}]
+    }
+}
