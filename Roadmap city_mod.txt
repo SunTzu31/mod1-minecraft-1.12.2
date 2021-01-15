@@ -1,0 +1,36 @@
+v0.1							
+	entités : 
+		barbare :
+			texture : ✔️
+			modèle : ✔️
+			behaviour : ~
+	
+
+
+	biomes : 
+		city_biome : ~
+
+
+	structures :
+		city :
+			castle :
+				building :
+				generation : 
+			houses : 
+				building :
+				generation : 
+
+	ores :		
+		saphir :
+			generation :
+			tecture : 
+
+	
+	blocks :
+		
+		
+			
+		
+	
+			
+		
