@@ -18,12 +18,13 @@ public class ItemPickakeMod extends ItemPickaxe implements IHasModel
 		setCreativeTab(CreativeTabs.TOOLS);
 		ItemInit.ITEMS.add(this);
 		
+		
 	}
 	
 	@Override
 	public void registerModels() 
 	{
-		Main.proxy.registerItemRenderer(this, 0);
+		Main.proxy.registerItemRenderer(this, 0, "inventory");
 	}
 	
 }

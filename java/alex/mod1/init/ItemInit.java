@@ -24,16 +24,29 @@ import net.minecraftforge.common.util.EnumHelper;
 
 public class ItemInit 
 {
-	public static List<Item> ITEMS = new ArrayList<Item>();
+	public static final List<Item> ITEMS = new ArrayList<Item>();
+	
 	
 	
 	//Tools materials
 	// name, harvestLevel, maxUses, efficiency, damage, enchantability
-	public static final ToolMaterial MOD1_TOOL = EnumHelper.addToolMaterial("mod1_tool", 5, 2500, 25.0f, 2000.0f, 24);
+	/*  WOOD(0, 59, 2.0F, 0.0F, 15),
+        STONE(1, 131, 4.0F, 1.0F, 5),
+        IRON(2, 250, 6.0F, 2.0F, 14),
+        DIAMOND(3, 1561, 8.0F, 3.0F, 10),
+        GOLD(0, 32, 12.0F, 0.0F, 22); 
+    */
+	public static final ToolMaterial MOD1_TOOL = EnumHelper.addToolMaterial("mod1_tool", 4, 2500, 100.0f, 2000.0f, 24);
 	public static final ToolMaterial MOD1_VIKING_MATERIAL = EnumHelper.addToolMaterial("mod1_viking_material", 5, 500, 25.0f, 10.0f, 15);
 	
 	//Armor materials 
 	// name, textureName, durability, reductionAmounts, enchantability, soundOnEquip, toughness
+	/* LEATHER("leather", 5, new int[]{1, 2, 3, 1}, 15, SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 0.0F),
+        CHAIN("chainmail", 15, new int[]{1, 4, 5, 2}, 12, SoundEvents.ITEM_ARMOR_EQUIP_CHAIN, 0.0F),
+        IRON("iron", 15, new int[]{2, 5, 6, 2}, 9, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0F),
+        GOLD("gold", 7, new int[]{1, 3, 5, 2}, 25, SoundEvents.ITEM_ARMOR_EQUIP_GOLD, 0.0F),
+        DIAMOND("diamond", 33, new int[]{3, 6, 8, 3}, 10, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 2.0F);
+    */
 	public static final ArmorMaterial MOD1_ARMOR = EnumHelper.addArmorMaterial("mod1_armor" , Reference.MODID + ":mod1", 150,  new int[] {5, 12, 10, 4}, 24, SoundEvents.BLOCK_NOTE_GUITAR , 1.0f);
 	
 	

@@ -1,10 +1,12 @@
-package alex.mod1.util.handlers;
+ package alex.mod1.util.handlers;
 
+import alex.mod1.init.BiomeInit;
 import alex.mod1.init.BlockInit;
 import alex.mod1.init.EntityInit;
 import alex.mod1.init.ItemInit;
 import alex.mod1.util.interfaces.IHasModel;
 import alex.mod1.world.generation.WorldGenCustomOres;
+import alex.mod1.world.generation.WorldGenCustomStructures;
 import net.minecraft.block.Block;
 import net.minecraft.entity.Entity;
 import net.minecraft.item.Item;
@@ -54,6 +56,10 @@ public class RegistryHandler
     {
         EntityInit.registerEntities();
         GameRegistry.registerWorldGenerator(new WorldGenCustomOres(), 0);
+        GameRegistry.registerWorldGenerator(new WorldGenCustomStructures(), 0);
+        
+        BiomeInit.registerBiomes();
+        
         RenderHandler.registerEntityRenders();
     }
 

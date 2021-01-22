@@ -28,7 +28,7 @@ public class ItemArmorMod extends ItemArmor implements IHasModel
 	@Override
 	public void registerModels() 
 	{
-		Main.proxy.registerItemRenderer(this, 0);
+		Main.proxy.registerItemRenderer(this, 0, "inventory");
 	}
 	
 	@Override

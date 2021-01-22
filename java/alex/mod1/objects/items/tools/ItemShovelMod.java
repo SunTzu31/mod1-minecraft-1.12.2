@@ -23,7 +23,7 @@ public class ItemShovelMod extends ItemSpade implements IHasModel
 	@Override
 	public void registerModels() 
 	{
-		Main.proxy.registerItemRenderer(this, 0);
+		Main.proxy.registerItemRenderer(this, 0, "inventory");
 	}
 	
 	

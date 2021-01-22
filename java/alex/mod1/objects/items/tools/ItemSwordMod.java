@@ -24,7 +24,7 @@ public class ItemSwordMod extends ItemSword implements IHasModel
 	@Override
 	public void registerModels() 
 	{
-		Main.proxy.registerItemRenderer(this, 0);
+		Main.proxy.registerItemRenderer(this, 0, "inventory");
 	}
 	
 	

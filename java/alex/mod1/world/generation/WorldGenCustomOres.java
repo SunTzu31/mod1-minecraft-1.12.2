@@ -20,7 +20,7 @@ public class WorldGenCustomOres implements IWorldGenerator
     public WorldGenCustomOres()
     {
         mod1_ore = new WorldGenMinable(BlockInit.MOD1_ORE.getDefaultState(), 6, BlockMatcher.forBlock(Blocks.SAND));
-        mod1_blocktest = new WorldGenMinable(BlockInit.MOD1_BLOCKTEST.getDefaultState(), 3, BlockMatcher.forBlock(Blocks.SAND));
+        mod1_blocktest = new WorldGenMinable(BlockInit.MOD1_DAESH_EXPLOSIVE.getDefaultState(), 3, BlockMatcher.forBlock(Blocks.SAND));
         dirt = new WorldGenMinable(Blocks.DIRT.getDefaultState(), 6, BlockMatcher.forBlock(Blocks.END_STONE));
 
     }

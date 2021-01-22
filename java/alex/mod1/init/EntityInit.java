@@ -1,7 +1,8 @@
 package alex.mod1.init;
 
 import alex.mod1.Main;
-import alex.mod1.objects.entity.EntityWomen;
+import alex.mod1.entity.EntityBarbarian;
+import alex.mod1.entity.EntityWomen;
 import alex.mod1.util.Reference;
 import net.minecraft.entity.Entity;
 import net.minecraft.util.ResourceLocation;
@@ -12,6 +13,7 @@ public class EntityInit
     public static void registerEntities()
     {
         registerEntity("women", EntityWomen.class, 111, 50, 16711935, 610856);
+        registerEntity("barbarian", EntityBarbarian.class, Reference.ENTITY_BARBARIAN, 50, 5777664, 15318293);
 
     }
 

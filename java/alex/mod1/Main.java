@@ -14,7 +14,7 @@ import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.Mod.Instance;
 
-@Mod(modid = Reference.MODID, name = Reference.NAME, version = Reference.VERSION )
+@Mod(modid = Reference.MODID, name = Reference.NAME, version = Reference.VERSION)
 public class Main {
 
 	@Instance

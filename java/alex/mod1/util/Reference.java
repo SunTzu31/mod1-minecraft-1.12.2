@@ -7,4 +7,6 @@ public class Reference {
 	public static final String CLIENT = "alex.mod1.proxy.ClientProxy";
 	public static final String COMMON = "alex.mod1.proxy.CommonProxy";
 	
+	public static final int ENTITY_BARBARIAN = 120;
+	
 }
